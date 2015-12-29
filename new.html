@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>jq</title>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript">
+			(function($) {
+				$.fn.extend({
+					kkk: function() {
+						alert("yyu");
+					}
+				})
+			})(jQuery);
+			
+			$("#pp").kkk();
+			$(".classA").kkk();
+		</script>
+	</head>
+
+	<body>
+		<button id="pp">numm</button>
+		<div class="classA">hh</div>
+	</body>
+
+</html>
